@@ -52,7 +52,10 @@ img{
 }
 .ban{
     background-image: url("./Images/new1.jpg");
-  
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     
     padding-top: 200px;
     padding-bottom: 200px;
