@@ -1,0 +1,232 @@
+body{
+    margin: 0px;
+    font-family: 'Libre Baskerville';
+    font-weight: 500;
+}
+img{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+
+}
+.header{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    background-color: #45bfd6;
+    font-size: 20px;
+ 
+}
+.logo{
+    margin-top:auto ;
+    margin-bottom:auto;
+}
+.header ul{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: auto;
+    justify-content: center;
+    background-color: #e1c316;
+    border-radius: 10px;
+}
+.header ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
+}
+.all{
+    display: flex;
+    flex-direction: column; 
+    margin: 5px;
+}
+.ban{
+    background-image: url("./Images/new1.jpg");
+  
+    
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #45bfd6; 
+}
+.ban2{
+    background-image: url("./Images/new2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #45bfd6; 
+}
+.ban3{
+    background-image: url("/Images/new3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;  
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #45bfd6; 
+}
+.others{
+    display: flex;
+    flex-direction: row;
+}
+#logo_img{
+    border-radius: 80px;
+   height: 100px;
+    width: 100px; 
+}
+.but{
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    width: auto;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-radius: 10px;
+    background-color: #e1c316;
+    float: right;
+}
+#inspi{
+    color: aliceblue;
+}
+#p_inspi{
+    color: aliceblue;
+    font-size: small;
+    font-weight: 200;
+}
+.testi{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+.rev1, .rev3{
+background-color: #e1c316;
+border-radius: 10px;
+margin: 5px;
+padding: 10px;
+}
+.rev2, .rev4{
+    background-color:#2681A5;
+
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+.part{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    background-color: #F1EDED;
+    width: auto;
+    padding-top: 35px;
+    padding-bottom: 80px;
+}
+.bt{
+    margin: 0px;
+    background-color: #F1EDED;
+    width: auto;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2681A5;
+   
+    padding: 50px;
+    margin-top:5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 20px; */
+    list-style: none;
+    text-decoration: none;
+}
+.down{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+   margin: 0px;
+    border-radius: 10px;
+    padding: 0px;
+}
+#lg_img{
+    border-radius: 80px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+.copy{
+    background: #45BFD6;
+
+}
+.no{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.no p{
+    padding-left: 5px;
+    color: #F1EDED;
+    font-size: 10px;
+}
+.lgo{
+    padding-top: 5px;
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.form-control{
+    background-color: #D9D9D9;
+}
+.site h4 {
+color: #D9D9D9;
+}
+.site p{
+    color: #D9D9D9;
+}
+.site a{
+    color: #D9D9D9;
+}
+.first h4{
+    color: #D9D9D9;
+}
+.first p{
+    color: #D9D9D9;
+}
