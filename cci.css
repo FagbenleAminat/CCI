@@ -11,6 +11,9 @@ img{
     height: 120px;
 
 }
+p{
+    font-size: 14px;
+}
 .header{
      display: flex;
     flex-direction: row;
@@ -417,4 +420,84 @@ color: #F1EDED;
         opacity: 1;
         transform: translateY(0);
       }
-      
+/* styles for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+    /* Style the navigation menu */
+    .header{
+        display: none;
+    }
+    .nav-bar{
+        display: flex;
+     flex-direction: column;
+    overflow: hidden;
+    background-color: #45BFD6;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+  }
+  .img_mobile{
+    margin-top: 20px;
+    height: 250px;
+    width: 100%;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .nav-bar #myLinks {
+    display: none;
+    background-color: black;
+  }
+  
+  /* Style navigation menu links */
+  .nav-bar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .nav-bar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .nav-bar a:hover {
+    background-color: #1f1c1c;
+    color: white;  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color:rgb(130 220 234 / 89%);;
+    color: white;
+  }
+  
+.saying, .foot{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.others {
+    display: grid;
+    grid-template-columns: 200px;
+    padding: 25px;
+    justify-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+.gcmp {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+.cmp{
+    padding: 12px;
+}
+
+}

@@ -1,3 +1,5 @@
+  /* The slideshow effect */
+
 window.addEventListener('scroll', function() {
     let elements = document.querySelectorAll('.slide-up');
     let windowHeight = window.innerHeight;
@@ -11,3 +13,12 @@ window.addEventListener('scroll', function() {
     });
   });
   
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";}  
+
+}
